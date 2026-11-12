@@ -83,10 +83,10 @@ app:
       refund: refund.events
       settlement: settlement.events
 
-MERCHANT_SERVICE_URI: http://merchant-service
-PAYMENT_SERVICE_URI: http://payment-service
-VAULT_SERVICE_URI: http://vault-service
-OPERATIONS_SERVICE_URI: http://operations-service
+MERCHANT_SERVICE_URI: lb://merchant-service
+PAYMENT_SERVICE_URI: lb://payment-service
+VAULT_SERVICE_URI: lb://vault-service
+OPERATIONS_SERVICE_URI: lb://operations-service
 
 ---
 

@@ -2,11 +2,6 @@ server:
   port: 9030
 
 spring:
-
-    kafka:
-    listener:
-      ack-mode: manual
-      
   datasource:
     url: jdbc:postgresql://localhost:5433/razorpay-operations-db
   cloud:
